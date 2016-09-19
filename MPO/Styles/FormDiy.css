@@ -1,0 +1,402 @@
+﻿
+ul
+{
+    -webkit-margin-after: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-start: 0px;
+    list-style-type: none;
+    margin: 0px auto; /* padding: 10px; */
+    overflow: hidden;
+    padding: 0px;
+    text-align: left;
+}
+
+
+
+.biglbl
+{
+    color: #333;
+    font-size: smaller;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+
+
+.formCustomControl
+{
+    -webkit-background-clip: padding-box;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    display: block;
+    outline: 0;
+    padding: 10px;
+    position: relative;
+}
+
+.form-group
+{
+    float: left;
+}
+
+
+.labelHeadR2
+{
+    background-color: #5E4485;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Helvetica Neue" , "Helvetica" , Helvetica, Arial, sans-serif !important;
+    font-size: 0.61111rem;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: auto;
+    padding: 0.22222rem 0.44444rem 0.22222rem;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.panel-title
+{
+    color: inherit;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.BigText
+{
+    color: #000333;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.toc-number {
+  border-radius: 50%;
+  height: 60px;
+  height: 4.28571429rem;
+  line-height: 60px;
+  line-height: 4.28571429rem;
+  margin: 6px -45px 0 0;
+  margin: 0.42857143rem -3.21428571rem 0 0;
+  width: 60px;
+  width: 4.28571429rem;
+}
+
+
+
+/*-Grid View-----------------------------------------------------------------------------------------*/
+
+.tablestyle
+{
+  
+    border-color: #CDCDCD;
+    color: #3D3D3D;
+}
+.tablestyle td, .tablestyle th
+{
+    border-color: #CDCDCD;
+}
+.alternatingrowstyle
+{
+    background-color: #F0F0F6;
+}
+.headerstyle
+{
+    background-image: url(img/sort_none.gif) !important;
+    background-repeat: no-repeat !important;
+    background-position: left !important;
+    padding-left: 20px !important;
+}
+.headerstyle a
+{
+    text-decoration: none !important;
+    display: block !important;
+}
+.rowstyle
+{
+    background-color: #FFF;
+}
+.rowstyle td, .alternatingrowstyle td
+{
+    padding: 4px;
+}
+.sortascheaderstyle
+{
+    background-image: url(img/sort_asc.gif) !important;
+    background-color: #8dbdd8 !important;
+    background-repeat: no-repeat !important;
+    background-position: center left !important;
+    padding-left: 20px !important;
+}
+.sortdescheaderstyle
+{
+    background-image: url(img/sort_desc.gif) !important;
+    background-color: #8dbdd8 !important;
+    background-repeat: no-repeat !important;
+    background-position: center left !important;
+    padding-left: 20px !important;
+}
+
+
+
+/*New Grid*===================================================================================*/
+
+.mGrid
+{
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+.mGrid td
+{
+    padding: 2px;
+    border: solid 1px #c1c1c1;
+    color: #717171;
+    text-align: center;
+}
+.mGrid th
+{
+    padding: 4px 2px;
+    color: #fff;
+    background: #424242 url(img/grd_head.png) repeat-x top;
+    border-left: solid 1px #525252;
+    font-size: 0.9em;
+}
+.mGrid .alt
+{
+    background: #fcfcfc url(img/grd_alt.png) repeat-x top;
+}
+.mGrid .pgr
+{
+    background: #424242 url(img/grd_pgr.png) repeat-x top;
+}
+.mGrid .pgr table
+{
+    margin: 5px 0;
+}
+.mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    font-weight: bold;
+    color: #fff;
+    line-height: 12px;
+}
+.mGrid .pgr a
+{
+    color: #666;
+    text-decoration: none;
+}
+.mGrid .pgr a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+.mGrid caption
+{
+    /*   padding-left: 4px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #666666;
+    color: #fff;*/
+    border-color: #990000;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    border-width: medium;
+    border-bottom-style: solid;
+}
+
+.mGrid .SelectedRowStyle
+{
+    background: none repeat scroll 0 0 #fff;
+    color: #000000;
+}
+
+.mGrid .AlternatingRowStyle
+{
+    background-color: #ffffff;
+}
+
+.mGrid .RowStyle
+{
+    background-color: #EFF3FB;
+}
+
+.mGrid a
+{
+    color: #ff4500;
+}
+
+
+/*fied==============================================================================*/
+
+.fiedbackgroundProduct
+{
+    background: url(img/product_icon92.png) no-repeat 95% 1em;
+}
+.fiedbackgroundQc
+{
+    background: url(img/qc92.png) no-repeat 95% 1em;
+}
+.fiedbackgroundCheckIn
+{
+    background: url(img/Checkin92.png) no-repeat 95% 1em;
+}
+.fiedbackgroundCheckOut
+{
+    background: url(img/exports92.png) no-repeat 95% 1em;
+}
+
+
+fieldset div
+{
+    margin: 0.3em 0;
+    clear: both;
+}
+
+label
+{
+   /* float: left;
+    width: 10em;
+    text-align: right;
+    margin-right: 1em;*/
+}
+legend
+{
+    color: #ff6347;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+legend span
+{
+    width: 10em;
+    text-align: right;
+}
+input, select, textarea
+{
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #f
+input, select, textarea
+{
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    font: bold 0.95em arial, sans-serif;
+    -moz-border-radius: 0.4em;
+    -khtml-border-radius: 0.4em;
+}
+
+
+und: #f6f6f6;
+}
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 0.5em 0.5em;
+}
+.date input
+{
+    background-image: url(../gfx/calendar-small.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.date fieldset label
+{
+    float: none;
+    display: block;
+    text-align: left;
+    width: auto;
+}
+.date fieldset div
+{
+    float: left;
+    clear: none;
+    margin-right: 0.2em;
+}
+/*
+.radio, .date {
+	position:relative;
+}
+.radio fieldset, .date fieldset {
+	border:none;
+	width:auto;
+	padding:1px 0 0 11em;
+}
+.radio legend, .date legend {
+	font-size:1em;
+	color:#000;
+}
+.radio legend span, .date legend span {
+	position:absolute;
+	left:0;
+	top:0.3em;
+	width:10em;
+	display:block;
+}
+.radio label, .radio input {
+	vertical-align:middle;
+	display:inline;
+	float:none;
+	width:auto;
+	background:none;
+	border:none;
+}
+.radio div {
+	float:left;
+	white-space:nowrap;
+	clear:none;
+}
+*/
+.email
+{
+    width: 14em;
+}
+
+input.default
+{
+    color: #bbb;
+}
+
+#submit-go
+{
+    margin-top: 1em;
+    width: 69px;
+    height: 26px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: 0;
+    background: url(../gfx/submit-button.gif) no-repeat 0 0;
+    display: block;
+    cursor: pointer !important;
+    cursor: hand;
+}
+#submit-go:hover
+{
+    background-position: 0 -26px;
+}
