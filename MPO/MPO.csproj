@@ -678,12 +678,16 @@
     <Content Include="Jquery\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
     <Content Include="Jquery\ui-lightness\images\ui-icons_ffffff_256x240.png" />
     <Content Include="Jquery\ui-lightness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Js_U\MPO_SOURCE.js" />
     <Content Include="LocationE.aspx" />
     <Content Include="Locations.aspx" />
     <Content Include="LoginR2.aspx" />
     <Content Include="ManageUser.aspx" />
     <Content Include="ManageUserE.aspx" />
     <Content Include="Menu.ascx" />
+    <Content Include="MPO_SOURCEListFilter.aspx" />
+    <Content Include="MPO_SOURCEService.asmx" />
+    <Content Include="MPO_SOURCEWeb.aspx" />
     <Content Include="OrderDetail.aspx" />
     <Content Include="INVOICE.aspx" />
     <Content Include="OrderSearch.aspx" />
@@ -767,6 +771,40 @@
     <Compile Include="AddProduct.aspx.designer.cs">
       <DependentUpon>AddProduct.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\Business\MPO_SOURCE.cs" />
+    <Content Include="App_Code\Business\MPO_SOURCEDb.cs" />
+    <Content Include="App_Code\Services\MPO_SOURCEService.cs">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="App_Code\FrameWork\App_Start\WebApiConfig.cs" />
+    <Content Include="App_Code\FrameWork\BaseProperties.cs" />
+    <Content Include="App_Code\FrameWork\Common\Config.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkAlert.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkClosePopUp.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkControls.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkDate.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkDefaultValue.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkGlobalDate.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkMessage.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkString.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkTestFunction.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkUser.cs" />
+    <Content Include="App_Code\FrameWork\Common\StkValidates.cs" />
+    <Content Include="App_Code\FrameWork\Common\Stk_Barcode_R2.cs" />
+    <Content Include="App_Code\FrameWork\Common\Stk_QueryString.cs" />
+    <Content Include="App_Code\FrameWork\Common\Stk_TextNull.cs" />
+    <Content Include="App_Code\FrameWork\Configcs.cs" />
+    <Content Include="App_Code\FrameWork\Controls\StkRepeaterExten.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="App_Code\FrameWork\DataAccess.cs" />
+    <Content Include="App_Code\FrameWork\Enum\EnumStkRole.cs" />
+    <Content Include="App_Code\FrameWork\Properties\Controls\SelectInputProperties.cs" />
+    <Content Include="App_Code\FrameWork\Security\EncryptDecryptQueryString.cs" />
+    <Content Include="App_Code\FrameWork\Security\Logon.cs" />
+    <Content Include="App_Code\FrameWork\Security\RijndaelSimple.cs" />
+    <Content Include="App_Code\FrameWork\Uitility\Search\SearchUtility.cs" />
+    <Content Include="App_Code\FrameWork\Ui\MsgBox.cs" />
     <Compile Include="chosen.ascx.cs">
       <DependentUpon>chosen.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -887,6 +925,14 @@
     </Compile>
     <Compile Include="Menu.ascx.designer.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MPO_SOURCEListFilter.aspx.cs">
+      <DependentUpon>MPO_SOURCEListFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MPO_SOURCEWeb.aspx.cs">
+      <DependentUpon>MPO_SOURCEWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OrderDetail.aspx.cs">
       <DependentUpon>OrderDetail.aspx</DependentUpon>
@@ -1053,6 +1099,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Db\inventory.FDB" />
+    <Content Include="App_Code\FrameWork\Common\Stk_DropDown.cs.exclude" />
     <None Include="images\jquerybubblepopup-theme\green\Thumbs.db" />
     <None Include="images\jquerybubblepopup-theme\orange\Thumbs.db" />
     <None Include="images\jquerybubblepopup-theme\violet\Thumbs.db" />
