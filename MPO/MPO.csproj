@@ -24,6 +24,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -1051,6 +1052,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Db\inventory.FDB" />
     <None Include="images\jquerybubblepopup-theme\green\Thumbs.db" />
     <None Include="images\jquerybubblepopup-theme\orange\Thumbs.db" />
     <None Include="images\jquerybubblepopup-theme\violet\Thumbs.db" />
