@@ -7,7 +7,7 @@
     <style>
         body
         {
-            margin: 0;
+            margin: 10;
             padding: 0;
             background: #fff;
             color: #fff;
