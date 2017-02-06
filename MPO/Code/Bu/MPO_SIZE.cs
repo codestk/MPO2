@@ -9,7 +9,7 @@ namespace MPO.Code.Bu
         {
 
             string sql =
-                "SELECT * FROM MPO_SIZE ORDER BY MPO_SIZE;";
+                "SELECT * FROM MPO_SIZE ;";
 
             DataSet ds = DB_R2.GetDataSet(sql);
 

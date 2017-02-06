@@ -1,5 +1,5 @@
-<%@ Page Title="MPO_SOURCE" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MPO_SOURCEWeb.aspx.cs" Inherits="MPO_SOURCEWeb" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">  
+<%@ Page Title="MPO_SOURCE" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="MPO_SOURCEWeb.aspx.cs" Inherits="MPO_SOURCEWeb" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">  
 <script src="Js_U/MPO_SOURCE.js"></script>
 <script type="text/javascript"> 
 var MsgError = 'UPDATE: An unexpected error has occurred. Please contact your system Administrator.';
@@ -99,7 +99,7 @@ $('#btnDelete').hide();
 }
 </script>
 </asp:Content> 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" > 
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server" > 
 <div class="container">
 <div class="row"><div class="input-field col s9"> 
 <input  id="txtPR_SOURCE" type="text" data-column-id="PR_SOURCE"  class="validate PR_SOURCE"   length="50"   maxlength="50"                /> 

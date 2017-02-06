@@ -1,5 +1,5 @@
-<%@ Page Title="MPO_SOURCE" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MPO_SOURCEListFilter.aspx.cs" Inherits="MPO_SOURCEFilter" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">  
+<%@ Page Title="MPO_SOURCE" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="MPO_SOURCEListFilter.aspx.cs" Inherits="MPO_SOURCEFilter" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">  
 <script src="Module/Pagger/jquery.simplePagination.js"></script>
 <script src="Js_U/MPO_SOURCE.js"></script>
 <script>
@@ -309,7 +309,7 @@ function ForceNumberTextBox()
 }
 </script> <link href="Module/Search/SearchControl.css" rel="stylesheet" />
  </asp:Content> 
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" > 
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server" > 
  <div class="container"> 
 <div class="row"> 
 <div class="input-field col s6"> 

@@ -7,14 +7,17 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-874">
     <title>SURIMI STORE</title>
+
+
+
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
     <%--  <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>--%>
-    <script src="Jquery/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+ <script src="Module/jquery-2.1.4.min.js"></script>
     <link href="Jquery/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="Jquery/jquery.ui.theme.css" rel="stylesheet" type="text/css" />
-    <script src="Jquery/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+<%--    <script src="Jquery/js/jquery-1.6.1.min.js" type="text/javascript"></script>--%>
     <script src="Scripts/jquery.bgiframe.js" type="text/javascript"></script>
-    <script src="Scripts/jquery.dimensions.js" type="text/javascript"></script>
+  <%--  <script src="Scripts/jquery.dimensions.js" type="text/javascript"></script>--%>
     <script src="Scripts/jquery.jdMenu.js" type="text/javascript"></script>
     <script src="Scripts/jquery.positionBy.js" type="text/javascript"></script>
     <script src="Jquery/js/thickbox.js" type="text/javascript"></script>
@@ -22,14 +25,37 @@
     <script type="text/javascript" src="Scripts/Stk/Momojojo_Web-1.0.1.0.js"></script>
     <link href="Jquery/jquery-ui.css" rel="stylesheet" type="text/css" />
     <link href="Jquery/jquery.ui.theme.css" rel="stylesheet" type="text/css" />
-    <script src="Jquery/js/jquery-ui-1.8.10.offset.datepicker.min.js" type="text/javascript"></script>
+<%--    <script src="Jquery/js/jquery-ui-1.8.10.offset.datepicker.min.js" type="text/javascript"></script>--%>
     <link href="Styles/FormDiy.css" rel="stylesheet" type="text/css" />
     <link href="Styles/menu.css" rel="stylesheet" type="text/css" />
    
-<%--    <script src="Scripts/AutoLogOut.js" type="text/javascript"></script>--%>
 
-   
-    <script type="text/javascript">
+
+    <link href="Module/Materialize/css/materialize.css" rel="stylesheet" media="screen,projection" />
+    <link href="Module/Materialize/css/style.css" rel="stylesheet" media="screen,projection" />
+    <link href="Module/Materialize/FixedCss/MaterializedFixed.css" rel="stylesheet" />
+    <link href="Module/GoogleMaterialize/GoogleIconOffline.css" rel="stylesheet" />
+    <link href="Module/GoogleMaterialize/GoogleIconOfflineFix.css" rel="stylesheet" />
+    <script src="Module/CommonUtility.js"></script>
+    <script src="Module/Stk/date.format.js"></script>
+
+      <!--  Scripts-->
+   <%-- <script src="Module/jquery-2.1.4.min.js"></script>--%>
+    <script src="Module/Materialize/js/materialize.js"></script>
+    <script src="Module/Materialize/js/init.js"></script>
+
+    <script src="Module/Stk/Momojojo-1.0.1.0.js"></script>
+    <script src="Module/Stk/Momojojo_Web-1.0.1.0.js"></script>
+
+    <link href="Module/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet" />
+    <script src="Module/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+
+    
+        <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+<%--    <script src="Scripts/AutoLogOut.js" type="text/javascript"></script>--%>
+    
+    <script type="text/javascript
 
         $(document).ready(function () {
 
@@ -38,8 +64,6 @@
             //Code For Hight Light Active Menu
             var path = window.location.pathname.split('/'); path = path[path.length - 1];
             if (path !== undefined) {
-
-
 
                 var menu = $("#MasterPage_Div_Menu").find("a[href='" + path + "']").parents('li').children('a');
                 menu.addClass('CurrentActive');
@@ -61,8 +85,7 @@
 
         
     </script>
-    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
-    </asp:ContentPlaceHolder>
+
     <style type="text/css">
         .spanHead
         {
